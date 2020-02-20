@@ -20,7 +20,7 @@ LAB INFO
  
  AWS Console login
  
- URL: https://us-east-1.signin.aws.amazon.com/oauth?SignatureVersion=4&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJMOATPLHVSJ563XQ&X-Amz-Date=2020-02-20T21%3A04%3A06.599Z&X-Amz-Signature=d73be6ff6bc38754912e427c2b6544a38fa150e8f121b0b5f9d847dbe9b8b2f5&X-Amz-SignedHeaders=host&client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fhomepage&nc2=h_ct&redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3Fnc2%3Dh_ct%26src%3Dheader-signin%26state%3DhashArgs%2523%26isauthcode%3Dtrue&response_type=code&src=header-signin&state=hashArgs%23
+ URL: https://090453859647.signin.aws.amazon.com/console
  AWS User ID: 090453859647
  AWS Console User: Fargate-lab-user
  AWS Console Password: jNyPu0Scu(yP
