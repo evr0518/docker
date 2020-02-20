@@ -4,7 +4,7 @@ Simplest Spring Boot Hello World Example
 
 # Steps
 
-> git clone https://github.com/goxr3plus/Simplest-Spring-Boot-Hello-World.git
+> git clone https://github.com/evr0518/docker.git
 
 > Run from your favourite IDE ( Eclipse , IntelliJ , Netbeans )
 
