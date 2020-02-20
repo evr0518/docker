@@ -7,7 +7,7 @@ MAINTAINER Vinay Ellanki <evr0518@gmail.com>
 EXPOSE 8080
 
 # The application's jar file
-ARG JAR_FILE=target/websocket-demo-0.0.1-SNAPSHOT.jar
+ARG JAR_FILE=target/docker-java-0.0.1-SNAPSHOT.jar
 
 # Add the application's jar to the container
 ADD ${JAR_FILE} docker-java.jar
