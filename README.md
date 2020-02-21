@@ -30,5 +30,15 @@ https://github.com/techtown-training/microservices-bootcamp
  
   For Publishing docker image, we upload to docker hub (Need to create account and repository if needed), below link has command for       pushing to docker hub 
   https://ropenscilabs.github.io/r-docker-tutorial/04-Dockerhub.html
+  
+  AWS Commands
+  
+  1. Create cluster
+     - aws ecs create-cluster --cluster-name fargate-cluster-lab9
+  2. Create Task definitation
+     - aws ecs register-task-definition --cli-input-json file://$HOME/docker/fargate-task.json
+  3. Create service
+     - aws ecs create-service --cluster fargate-cluster-lab9 --service-name fargate-service-lab9 --task-definition                              ${TASK_DEFINITION} --desired-count 1 --launch-type "FARGATE" --network-configuration "awsvpcConfiguration={subnets=                      [${LAB_SUBNET}],securityGroups=[${LAB_SECURITYGROUP}],assignPublicIp=ENABLED}"
+  
  
 
