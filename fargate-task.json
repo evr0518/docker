@@ -4,7 +4,7 @@
     "containerDefinitions": [
         {
             "name": "fargate-app-lab9",
-            "image": "evr0518/fm-java:docker-java-1.0",
+            "image": "evr0518/fm-java:docker-java-1.1",
             "portMappings": [
                 {
                     "containerPort": 80,
