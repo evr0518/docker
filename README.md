@@ -26,7 +26,11 @@ https://github.com/techtown-training/microservices-bootcamp
   1. git clone https://github.com/evr0518/docker.git
   2. mvn package
   3. docker build -t docker-java . (This will create a docker image with name 'docker-java')
-  4. docker run (This will run your java application)  docker run -p 8000:8080 docker-java 
+  4. docker run (This will run your java application)  docker run -p 8000:8080 docker-java
+  5. docker login --username=yourhubusername --email=youremail@company.com
+  6. docker images
+  7. docker tag yourimageID yourhubusername/verse_gapminder:firsttry
+  8. docker push yourhubusername/verse_gapminder
  
   For Publishing docker image, we upload to docker hub (Need to create account and repository if needed), below link has command for       pushing to docker hub 
   https://ropenscilabs.github.io/r-docker-tutorial/04-Dockerhub.html
