@@ -1,5 +1,5 @@
 {
-    "family": "fargate-lab9-docker",
+    "family": "fargate-lab9-docker-java",
     "networkMode": "awsvpc",
     "containerDefinitions": [
         {
