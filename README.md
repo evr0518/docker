@@ -39,6 +39,12 @@ https://github.com/techtown-training/microservices-bootcamp
      - aws ecs register-task-definition --cli-input-json file://$HOME/docker/fargate-task.json
   3. Create service
      - aws ecs create-service --cluster fargate-cluster-lab9 --service-name fargate-service-lab9 --task-definition                              ${TASK_DEFINITION} --desired-count 1 --launch-type "FARGATE" --network-configuration "awsvpcConfiguration={subnets=                      [${LAB_SUBNET}],securityGroups=[${LAB_SECURITYGROUP}],assignPublicIp=ENABLED}"
+     
+     
+     
+     
+ DOCS
+ 1. https://aws.amazon.com/blogs/compute/deploying-java-microservices-on-amazon-ec2-container-service/
   
  
 
