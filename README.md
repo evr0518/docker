@@ -1,14 +1,10 @@
-# Hello World with Docker
-Simplest Spring Boot Hello World Example 
+# Hello World with Spring Boot and Docker
+Spring Boot Hello World Example 
 
 
 # Steps
 
 > git clone https://github.com/evr0518/docker.git
-
-> Run from your favourite IDE ( Eclipse , IntelliJ , Netbeans )
-
-ENJOY THE POWER OF A HELLO WORLD ! Welcome to Spring Boot :)
 
 LAB INFO
 
@@ -16,6 +12,7 @@ LAB INFO
  1. https://jordanclark.us/files/Default.ppk - Download and save into file
  2. Open putty, Connections -> SSH -> Auth and load private key
  3. IP Address: lab9: 34.220.51.242
+ 4. Connections -> Data, enter login username - ubuntu
  
  
  AWS Console login
