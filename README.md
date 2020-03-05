@@ -49,6 +49,10 @@ https://github.com/techtown-training/microservices-bootcamp
      
  DOCS
  1. https://aws.amazon.com/blogs/compute/deploying-java-microservices-on-amazon-ec2-container-service/
+ 
+ AWS creditionals from lab
+ aws_access_key_id = fakeMyKeyId
+aws_secret_access_key = fakeSecretAccessKey
   
  
 
