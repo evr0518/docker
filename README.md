@@ -57,15 +57,15 @@ aws_secret_access_key = fakeSecretAccessKey
  
 ## To Generate Token
 
-### Properties Needed
+ ### Properties Needed
 
-## In Secret Manager
+  ## In Secret Manager
 
-| Property Name                | Purpose                                |  Required  |
-|------------------------------|----------------------------------------|------------|
-| nuid                         | Non-unique ID                          |   True     |
-| nuidSecret                   | Secret for the NUID                    |   True     |   
-| clientid                     | Client ID                              |   True     |
-| clientSecret                 | Secret for the Client                  |   True     |
+   | Property Name                | Purpose                                |  Required  |
+   |------------------------------|----------------------------------------|------------|
+   | nuid                         | Non-unique ID                          |   True     |
+   | nuidSecret                   | Secret for the NUID                    |   True     |   
+   | clientid                     | Client ID                              |   True     |
+   | clientSecret                 | Secret for the Client                  |   True     |
 
 
